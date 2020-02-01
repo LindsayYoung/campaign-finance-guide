@@ -1,0 +1,18 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+img {
+  border-radius: 5%;
+}
+
+footer {
+ margin-top: 70px;
+ position: relative;
+ height: 50px;
+ background-color: lightgrey;
+ clear: both;
+ color: black;
+ background-color: transparent;
+}
