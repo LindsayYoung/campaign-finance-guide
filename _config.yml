@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: Campaign Finance Data Explorer
+description: Introduction to campaign finance data
+logo: /mars_rover.jpg
+show_downloads: false
