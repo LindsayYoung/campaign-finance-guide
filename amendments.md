@@ -8,7 +8,7 @@ Understanding line numbers it important if you want to work with the more granul
 
 Working with individual records is tricky because there are a lot of codes that can apply to a record and the code can radical change the meaning of the record.
 
-This is where you can really leverage the FEC website and API to really help you out. The `is_individual` flag can sort out the relevant line numbers for you so you can get all unique, individual line items.
+This is where you can really leverage the [FEC website](https://www.fec.gov/data/receipts/?data_type=processed&two_year_transaction_period=2020&is_individual=true) and [API](https://api.open.fec.gov/developers/#/receipts/get_schedules_schedule_a_) to really help you out. The `is_individual` flag can sort out the relevant line numbers for you so you can get all unique, individual line items.
 
 Understanding individual records depend on understanding line numbers. You can see on the form below a check box in the upper right corner. That is where you can see the line numbers for the records on that form page.
 
