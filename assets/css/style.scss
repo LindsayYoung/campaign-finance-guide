@@ -8,11 +8,18 @@ img {
 }
 
 footer {
- margin-top: 70px;
+ margin-top: 80px;
+ padding: 20px 0;
  position: relative;
  height: 50px;
- background-color: lightgrey;
  clear: both;
  color: black;
  background-color: transparent;
+ width: auto 500px;
+ float: right;
+ margin: 0 0 20px;
+}
+
+.marg-top-3{
+ margin-top: 3rem;
 }
