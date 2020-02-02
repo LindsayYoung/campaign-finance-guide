@@ -38,7 +38,7 @@ The data from the forms that committees submit to the FEC is organized into sche
 
 **Schedule A** - Covers all the itemized receipts that committees list on their forms. (Giving to a campaign isn't the legal definition of a donation. But these contributions are commonly called donations.) This is a large data set to work with. The data can also be a bit tricky.
 
-The main thing to note is that if a donation is given to a committee with the purpose of giving it to another committee (usually a candidate committee), **that contribution will show up twice:** once in the records for each committee. If you are trying to aggregate donations, you can avoid that problem in the [FEC site](https://www.fec.gov/data/receipts/?data_type=processed&amp;two_year_transaction_period=2020), by clicking " From unique individuals only". If you're using the FEC API, you can do the same thing by setting the "is\_individual" parameter to true.
+The main thing to note is that if a donation is given to a committee with the purpose of giving it to another committee (usually a candidate committee), **that contribution will show up twice:** once in the records for each committee. If you are trying to aggregate donations, you can avoid that problem in the [FEC site](https://www.fec.gov/data/receipts/?data_type=processed&amp;two_year_transaction_period=2020), by clicking " From unique individuals only". If you're using the FEC API, you can do the same thing by setting the `is_individual` parameter to true.
 
 Keep in mind that the same name can appear differently across the data, sometimes nicknames are used or people's names are misspelled. People's locations can change as people move. Also more than one person can have the same name. If you are looking at contributors you will need to do some research to make sure your totals are right.
 
@@ -82,7 +82,7 @@ The FEC is a good place to compare [Presidential](https://www.fec.gov/data/candi
 
 Working with the schedules directly can be pretty labor intensive, so you might want to start with [OpenSecret's donor lookup](https://www.opensecrets.org/donor-lookup). They have already put in the effort to clean the data and consolidate contributions by each unique contributor, so you don't have to.
 
- ### _I want to see campaign finance data in the context of other information about races:_
+### _I want to see campaign finance data in the context of other information about races:_
 
 [ProPublica](https://projects.propublica.org/electionbot/) provides campaign finance data alongside Google searches, polling, Facebook ads, news articles, and statements.
 
